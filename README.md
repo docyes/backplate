@@ -21,11 +21,11 @@ js/contrib/jquery.js
 js/contrib/backbone.js
 js/main.js
 
-[docyes@len backplate]$firefox file:///build/index.html
+[docyes@len backplate]$ firefox file:///build/index.html
 ```
 
 Development:
 ```sh
-[docyes@len backplate]$firefox file:///src/debug.html
+[docyes@len backplate]$ firefox file:///src/debug.html
 ```
 
