@@ -4,7 +4,7 @@ Backplate
 A boilerplate for organizing (contrib packages, requirejs shim configuration)  and building (requirejs optimizer) a Backbone application.
 
 Basic Usage:
-```bash
+```sh
 [docyes@len backplate]$ ./build.sh 
 
 Tracing dependencies for: main
@@ -21,5 +21,11 @@ js/contrib/jquery.js
 js/contrib/backbone.js
 js/main.js
 
-[docyes@len backplate]$
+[docyes@len backplate]$firefox file:///build/index.html
 ```
+
+Development:
+```sh
+[docyes@len backplate]$firefox file:///src/debug.html
+```
+
