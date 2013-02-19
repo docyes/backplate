@@ -3,7 +3,12 @@ Backplate
 
 A boilerplate for managing the development source and production build of a RequireJS driven Backbone application.
 
-Basic Usage:
+Development:
+```sh
+[docyes@len backplate]$ firefox src/debug.html
+```
+
+Production:
 ```sh
 [docyes@len backplate]$ ./build.sh 
 
@@ -24,8 +29,5 @@ js/main.js
 [docyes@len backplate]$ firefox build/index.html
 ```
 
-Development:
-```sh
-[docyes@len backplate]$ firefox src/debug.html
-```
+
 
