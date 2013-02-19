@@ -43,12 +43,14 @@ build.js -> RequireJS build profile and overlay of shared configuration
 r.js -> RequireJS optimizer
 
 ./src: -> Project source tree
-debug.html -> Development runtime full RequireJS
-index.html -> Production runtime minimal almond
+debug.html -> Browser development runtime full RequireJS
+index.html -> Browser production runtime minimal almond
 
-js -> JavaScript source
+./js -> JavaScript source
 main.js -> Program main
 require.config.js -> Shared RequireJS configuration
+
+./js/conrib -> Third-party packages
 ```
 
 
