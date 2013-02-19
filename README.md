@@ -1,7 +1,7 @@
 Backplate
 ===========
 
-A boilerplate for organizing (contrib packages, requirejs shim configuration)  and building (requirejs optimizer) a Backbone application.
+A boilerplate for managing the development source and production build of a RequireJS driven Backbone application.
 
 Basic Usage:
 ```sh
