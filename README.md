@@ -50,7 +50,7 @@ index.html -> Browser production runtime minimal almond
 main.js -> Program main
 require.config.js -> Shared RequireJS configuration
 
-./js/conrib -> Third-party packages
+./js/contrib -> Third-party packages
 ```
 
 
