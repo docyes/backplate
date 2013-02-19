@@ -1,7 +1,11 @@
 Backplate
 ===========
 
-A boilerplate for managing the development source and production build of a RequireJS driven Backbone application.
+A boilerplate for managing the development source tree and production build of a RequireJS driven Backbone application.
+RequireJS configuration is mostly shared between both development and production. 
+
+For convenience Backplate ships with Backbone, underscore, jQuery, RequireJS, r.js (RequireJS optimizer), text.js (RequireJS text plugin) 
+and pre-configured RequireJS shims for non-AMD compliant packages.
 
 Development:
 ```sh
