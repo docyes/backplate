@@ -39,35 +39,36 @@ js/main.js
 ## File System Reference
 
 ### build.sh
-Load configuration and run the optimizer and output contents to ./build directory.
+Executes the r.js optimizer using Node with build.js as the master build profile. See lib/r.js
 
 ### build.js
-RequireJS build profile and overlay of shared configuration
+The master production build profile; see build.sh and src/js/require.config.js.
 
 ### lib/ 
-Shared libraries 
+Shared libraries.
 
 ### lib/r.js
-The RequireJS optimizer
+An adapter to run AMD based projects in Node or Rhino. Includes the RequireJS Optimizer that combines scripts for optimal 
+browser delivery. See https://github.com/jrburke/r.js/
 
 ### src/
 Project source tree
 
 ### src/debug.html
-Browser development runtime full RequireJS
+Browser development runtime full RequireJS; only runs in the src/ directory.
 
 ### src/index.html
-Browser production runtime minimal almond
+Browser production runtime; only runs in the build/ directory. See build.sh
 
 ### src/js
 JavaScript source
 
 ### src/js/main.js
-Program main
+Program main initializer.
 
 ### src/js/require.config.js
-Shared RequireJS configuration
+Shared RequireJS configuration used by both development and production variants.
 
 ### src/js/contrib/
-Third-party packages
+Third-party packages.
 
