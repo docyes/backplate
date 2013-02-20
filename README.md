@@ -51,7 +51,7 @@ An adapter to run AMD based projects in Node or Rhino. Includes the RequireJS Op
 browser delivery. See https://github.com/jrburke/r.js/
 
 ### src/
-Project source tree
+Project source tree.
 
 ### src/debug.html
 Browser development runtime full RequireJS; only runs in the src/ directory.
@@ -60,13 +60,13 @@ Browser development runtime full RequireJS; only runs in the src/ directory.
 Browser production runtime; only runs in the build/ directory. See build.sh
 
 ### src/js/
-JavaScript source
+JavaScript source tree.
 
 ### src/js/main.js
 Program main initializer.
 
 ### src/js/require.config.js
-Shared RequireJS configuration used by both development and production variants.
+Shared RequireJS configuration used by both development and production variants. See src/debug.html and build.js
 
 ### src/js/contrib/
 Third-party packages.
