@@ -3,7 +3,7 @@
 
 ## Overview
 
-A boilerplate for managing the development source tree and production build of a RequireJS driven Backbone application.
+A boilerplate for the development source tree and production build process of a RequireJS driven Backbone application.
 
 For convenience Backplate ships with Backbone, underscore, jQuery, RequireJS, r.js, almond, text.js 
 and pre-configured RequireJS shims for non-AMD compliant packages.
