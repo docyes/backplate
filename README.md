@@ -4,9 +4,8 @@
 ## Overview
 
 A boilerplate for managing the development source tree and production build of a RequireJS driven Backbone application.
-RequireJS configuration is mostly shared between both development and production. 
 
-For convenience Backplate ships with Backbone, underscore, jQuery, RequireJS, r.js (RequireJS optimizer), almond, text.js (RequireJS text plugin) 
+For convenience Backplate ships with Backbone, underscore, jQuery, RequireJS, r.js, almond, text.js 
 and pre-configured RequireJS shims for non-AMD compliant packages.
 
 ## Development
@@ -60,7 +59,7 @@ Browser development runtime full RequireJS; only runs in the src/ directory.
 ### src/index.html
 Browser production runtime; only runs in the build/ directory. See build.sh
 
-### src/js
+### src/js/
 JavaScript source
 
 ### src/js/main.js
