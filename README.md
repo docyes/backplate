@@ -38,24 +38,36 @@ js/main.js
 
 ## File System Reference
 
-```sh
-./
-build.sh -> Load configuration and run the optimizer and output contents to ./build
-build.js -> RequireJS build profile and overlay of shared configuration
+### build.sh
+Load configuration and run the optimizer and output contents to ./build directory.
 
-./lib: -> Shared libraries 
-r.js -> RequireJS optimizer
+### build.js
+RequireJS build profile and overlay of shared configuration
 
-./src: -> Project source tree
-debug.html -> Browser development runtime full RequireJS
-index.html -> Browser production runtime minimal almond
+### lib/ 
+Shared libraries 
 
-./js -> JavaScript source
-main.js -> Program main
-require.config.js -> Shared RequireJS configuration
+### lib/r.js
+The RequireJS optimizer
 
-./js/contrib -> Third-party packages
-```
+### src/
+Project source tree
 
+### src/debug.html
+Browser development runtime full RequireJS
 
+### src/index.html
+Browser production runtime minimal almond
+
+### src/js
+JavaScript source
+
+### src/js/main.js
+Program main
+
+### src/js/require.config.js
+Shared RequireJS configuration
+
+### src/js/contrib/
+Third-party packages
 
