@@ -1,7 +1,7 @@
 # Backplate
 ===========
 
-## Overview:
+## Overview
 
 A boilerplate for managing the development source tree and production build of a RequireJS driven Backbone application.
 RequireJS configuration is mostly shared between both development and production. 
@@ -9,13 +9,13 @@ RequireJS configuration is mostly shared between both development and production
 For convenience Backplate ships with Backbone, underscore, jQuery, RequireJS, r.js (RequireJS optimizer), almond, text.js (RequireJS text plugin) 
 and pre-configured RequireJS shims for non-AMD compliant packages.
 
-## Development:
+## Development
 
 ```sh
 [docyes@len backplate]$ firefox src/debug.html
 ```
 
-## Production:
+## Production
 ```sh
 [docyes@len backplate]$ ./build.sh 
 
@@ -36,7 +36,7 @@ js/main.js
 [docyes@len backplate]$ firefox build/index.html
 ```
 
-## File System Reference:
+## File System Reference
 
 ```sh
 ./
