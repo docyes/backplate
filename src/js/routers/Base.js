@@ -1,5 +1,10 @@
 define(['backbone'], function(Backbone) {
     return Backbone.Router.extend({
-        //TBD.
+        routes: {
+            '*splat': 'splat'
+        },
+        splat: function() {
+            console.log('*splat route called:', arguments);
+        }
     });
 })
