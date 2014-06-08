@@ -11,7 +11,7 @@
             exclude: [
                 'common'
             ]
-	    },
+        },
         {
             name: 'common',
             create: true,
