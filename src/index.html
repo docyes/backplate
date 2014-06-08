@@ -6,8 +6,18 @@
 <title>Page</title>
 <meta name="description" content="description">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<script src="js/common.js"></script>
-<script src="js/main.js"></script>
+<script>
+    if (window.location.href.indexOf('debug=1')!=-1) {
+        document.write('<s\cript src="js/contrib/require.js"></s\cript>');
+        document.write('<s\cript src="js/require.config.js"></s\cript>');
+        document.write('<s\cript>');
+        document.write('require(["main"]);');
+        document.write('</s\cript>');
+    } else {
+        document.write('<s\cript src="js/common.js"></s\cript>');
+        document.write('<s\cript src="js/main.js"></s\cript>');
+    }
+</script>
 </head>
 <body>
 </body>

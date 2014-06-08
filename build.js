@@ -22,7 +22,8 @@
             ]
         }
     ],
-    stubModules: ['contrib/text'],
+    stubModules: [
+        'contrib/text'
+    ],
     preserveLicenseComments: false,
-    fileExclusionRegExp: /^\.|debug\.html/
 })
