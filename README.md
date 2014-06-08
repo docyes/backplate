@@ -11,7 +11,7 @@ and pre-configured RequireJS shims for non-AMD compliant packages.
 ## Development
 
 ```sh
-[docyes@len backplate]$ firefox src/debug.html
+[docyes@len backplate]$ firefox src/index.html?debug=1
 ```
 
 ## Production
@@ -19,18 +19,28 @@ and pre-configured RequireJS shims for non-AMD compliant packages.
 [docyes@len backplate]$ ./build.sh 
 
 Tracing dependencies for: main
-Uglifying file: /home/docyes/code/backplate/build/js/require.config.js
-Uglifying file: /home/docyes/code/backplate/build/js/contrib/require.js
-Uglifying file: /home/docyes/code/backplate/build/js/contrib/text.js
-Uglifying file: /home/docyes/code/backplate/build/js/main.js
+
+Tracing dependencies for: common
+Uglifying file: /Users/docyes/Code/backplate/build/js/common.js
+Uglifying file: /Users/docyes/Code/backplate/build/js/contrib/require.js
+Uglifying file: /Users/docyes/Code/backplate/build/js/main.js
+Uglifying file: /Users/docyes/Code/backplate/build/js/require.config.js
 
 js/main.js
 ----------------
+js/main.js
+
+js/common.js
+----------------
 js/contrib/almond.js
+js/contrib/text.js
 js/contrib/underscore.js
 js/contrib/jquery.js
 js/contrib/backbone.js
-js/main.js
+js/views/Base.js
+js/models/Base.js
+js/collections/Base.js
+js/routers/Base.js
 
 [docyes@len backplate]$ firefox build/index.html
 ```
@@ -53,11 +63,8 @@ browser delivery. See https://github.com/jrburke/r.js/
 ### src/
 Project source tree.
 
-### src/debug.html
-Browser development runtime full RequireJS; only runs in the src/ directory.
-
 ### src/index.html
-Browser production runtime; only runs in the build/ directory. See build.sh
+Browser production and development runtime; production only runs in the build/ directory and development in the src/ directory. See build.sh
 
 ### src/js/
 JavaScript source tree.

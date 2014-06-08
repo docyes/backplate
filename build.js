@@ -18,7 +18,11 @@
             include: [
                 'contrib/almond',
                 'contrib/text',
-                'backbone'
+                'backbone',
+                'views/Base',
+                'models/Base',
+                'collections/Base',
+                'routers/Base'
             ]
         }
     ],
