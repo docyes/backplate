@@ -8,11 +8,21 @@
     modules: [
         {
             name: 'main',
-            include: ['contrib/almond'],
-	}
+            exclude: [
+                'common'
+            ]
+	    },
+        {
+            name: 'common',
+            create: true,
+            include: [
+                'contrib/almond',
+                'backbone',
+                'contrib/text'
+            ]
+        }
     ],
     stubModules: ['contrib/text'],
-    wrap: true,
     preserveLicenseComments: false,
     fileExclusionRegExp: /^\.|debug\.html/
 })
