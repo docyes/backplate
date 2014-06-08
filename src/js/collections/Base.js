@@ -1,5 +1,4 @@
-define(function() {
-    var Backbone = require('backbone');
+define(['backbone'], function(Backbone) {
     return Backbone.Collection.extend({
         //TBD.
     });
