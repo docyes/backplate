@@ -1,3 +1,3 @@
-require(['contrib/backbone', 'contrib/underscore'], function(Backbone, _) {
+require(['backbone'], function(Backbone) {
     console.log('main running...');
 });
