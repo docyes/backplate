@@ -17,8 +17,8 @@
             create: true,
             include: [
                 'contrib/almond',
-                'backbone',
-                'contrib/text'
+                'contrib/text',
+                'backbone'
             ]
         }
     ],
