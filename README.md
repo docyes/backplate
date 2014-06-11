@@ -69,6 +69,12 @@ Browser production and development runtime; production only runs in the build/ d
 ### src/js/
 JavaScript source tree.
 
+### src/js/main.js
+Program main initializer. Starts Backbone.history and initializes Base router.
+
+### src/js/require.config.js
+Shared RequireJS configuration used by both development and production variants. See src/debug.html and build.js
+
 ### src/js/views/Base.js
 Base scaffold class extending Backbone.View
 
@@ -80,12 +86,6 @@ Base scaffold (empty) class extending Backbone.Collection
 
 ### src/js/routers/Base.js
 Base scaffold (empty) class extending Backbone.Router
-
-### src/src/js/main.js
-Program main initializer. Starts Backbone.history and initializes Base router.
-
-### src/src/js/require.config.js
-Shared RequireJS configuration used by both development and production variants. See src/debug.html and build.js
 
 ### src/src/js/contrib/
 Third-party packages.
