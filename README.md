@@ -69,12 +69,40 @@ Browser production and development runtime; production only runs in the build/ d
 ### src/js/
 JavaScript source tree.
 
+### js/views/Base.js
+Base scaffold class extending Backbone.View
+
+### js/models/Base.js
+Base scaffold class extending Backbone.Model
+
+### js/collections/Base.js
+Base scaffold class extending Backbone.Collection
+
+### js/routers/Base.js
+Base scaffold class extending Backbone.Router
+
 ### src/js/main.js
-Program main initializer.
+Program main initializer. Starts Backbone.history and initializes Base router.
 
 ### src/js/require.config.js
 Shared RequireJS configuration used by both development and production variants. See src/debug.html and build.js
 
 ### src/js/contrib/
 Third-party packages.
+
+### js/contrib/require.js
+A file and module loader for JavaScript. See https://github.com/jrburke/requirejs
+
+### js/contrib/almond.js
+A minimal AMD API implementation for use after optimized builds. See https://github.com/jrburke/almond
+
+### js/contrib/text.js
+An AMD loader plugin for loading text resources. See https://github.com/requirejs/text
+
+### js/contrib/underscore.js
+
+
+### js/contrib/jquery.js
+
+### js/contrib/backbone.js
 
