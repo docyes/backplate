@@ -73,13 +73,13 @@ JavaScript source tree.
 Base scaffold class extending Backbone.View
 
 ### js/models/Base.js
-Base scaffold class extending Backbone.Model
+Base scaffold (empty) class extending Backbone.Model
 
 ### js/collections/Base.js
-Base scaffold class extending Backbone.Collection
+Base scaffold (empty) class extending Backbone.Collection
 
 ### js/routers/Base.js
-Base scaffold class extending Backbone.Router
+Base scaffold (empty) class extending Backbone.Router
 
 ### src/js/main.js
 Program main initializer. Starts Backbone.history and initializes Base router.
@@ -100,9 +100,10 @@ A minimal AMD API implementation for use after optimized builds. See https://git
 An AMD loader plugin for loading text resources. See https://github.com/requirejs/text
 
 ### js/contrib/underscore.js
-
+JavaScript's utility _ belt.See https://github.com/jashkenas/underscore
 
 ### js/contrib/jquery.js
+jQuery JavaScript Library. See https://github.com/jquery/jquery
 
 ### js/contrib/backbone.js
-
+Give your JS App some Backbone with Models, Views, Collections, and Events. See https://github.com/jashkenas/backbone
