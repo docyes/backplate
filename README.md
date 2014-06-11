@@ -69,41 +69,41 @@ Browser production and development runtime; production only runs in the build/ d
 ### src/js/
 JavaScript source tree.
 
-### js/views/Base.js
+### src/js/views/Base.js
 Base scaffold class extending Backbone.View
 
-### js/models/Base.js
+### src/js/models/Base.js
 Base scaffold (empty) class extending Backbone.Model
 
-### js/collections/Base.js
+### src/js/collections/Base.js
 Base scaffold (empty) class extending Backbone.Collection
 
-### js/routers/Base.js
+### src/js/routers/Base.js
 Base scaffold (empty) class extending Backbone.Router
 
-### src/js/main.js
+### src/src/js/main.js
 Program main initializer. Starts Backbone.history and initializes Base router.
 
-### src/js/require.config.js
+### src/src/js/require.config.js
 Shared RequireJS configuration used by both development and production variants. See src/debug.html and build.js
 
-### src/js/contrib/
+### src/src/js/contrib/
 Third-party packages.
 
-### js/contrib/require.js
+### src/js/contrib/require.js
 A file and module loader for JavaScript. See https://github.com/jrburke/requirejs
 
-### js/contrib/almond.js
+### src/js/contrib/almond.js
 A minimal AMD API implementation for use after optimized builds. See https://github.com/jrburke/almond
 
-### js/contrib/text.js
+### src/js/contrib/text.js
 An AMD loader plugin for loading text resources. See https://github.com/requirejs/text
 
-### js/contrib/underscore.js
+### src/js/contrib/underscore.js
 JavaScript's utility _ belt.See https://github.com/jashkenas/underscore
 
-### js/contrib/jquery.js
+### src/js/contrib/jquery.js
 jQuery JavaScript Library. See https://github.com/jquery/jquery
 
-### js/contrib/backbone.js
+### src/js/contrib/backbone.js
 Give your JS App some Backbone with Models, Views, Collections, and Events. See https://github.com/jashkenas/backbone
