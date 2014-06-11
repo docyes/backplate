@@ -87,6 +87,9 @@ Base scaffold (empty) class extending Backbone.Collection
 ### src/js/routers/Base.js
 Base scaffold (empty) class extending Backbone.Router
 
+### src/js/mixins/modelcollection.js
+Base scaffold (empty) mixin as the Backbone.Model and Backbone.Collection do not inherit from the same Base class.
+
 ### src/js/contrib/
 Third-party packages.
 
